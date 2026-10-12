@@ -2,4 +2,3 @@ streamlit>=1.30
 numpy
 torch
 plotly
-matplotlib
