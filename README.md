@@ -10,11 +10,8 @@ Built for the [HTCJ Aviation Futures Challenge 2026](https://htcj-aviation-futur
 <p align="center">
   <img src="figures/Headshot.png" alt="Screenshot of the live app" width="600">
   <br>
-  <ins><em>Figure 1: Screenshot of the live app</em></ins>
+  <b>Figure 1:</b> <i>Screenshot of the live app</i>
 </p>
-
-This text will now sit below the image with clean, standard spacing.
-
 
 ## The problem
 
