@@ -130,6 +130,10 @@ def optimize_for_blade_count(model, x_mean, x_std, y_mean, y_std,
                              n_blades, target,
                              n_restarts=64, n_steps=400, lr=0.02):
     """Multi-start Adam on the 9 continuous design parameters."""
+    # Deterministic restart: seed from the blade count so each of the
+    # five optimizations gets its own independent, reproducible stream.
+    np.random.seed(1000 + int(n_blades))
+    torch.manual_seed(1000 + int(n_blades))
     x_mean_t = torch.from_numpy(x_mean).float()
     x_std_t  = torch.from_numpy(x_std).float()
     y_mean_t = torch.from_numpy(y_mean).float()
