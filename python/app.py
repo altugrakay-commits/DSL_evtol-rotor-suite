@@ -291,7 +291,7 @@ def main():
     st.caption(
         "Surrogate: 4-layer MLP with physics-informed loss.  "
         "C engine: BEM + semi-empirical noise + beam structure.  "
-        "50k training samples, mean relative error 0.17%."
+        "50k training samples, mean relative error 0.23%."
     )
 
 

@@ -7,16 +7,12 @@ Built for the [HTCJ Aviation Futures Challenge 2026](https://htcj-aviation-futur
 [Technical brief](docs/TECHNICAL_BRIEF.md) \
 [GitHub](https://github.com/altugrakay-commits)
 
----
+![Screenshot of the live app](figures/Headshot.png)
+<center>Figure 1: Screenshot of the live app</center><br>
 
 ## The problem
 
-Urban eVTOL aircraft must operate under strict noise regulations while
-maximizing battery efficiency. Propeller design traditionally requires
-days of Finite Element Analysis for a single configuration. This suite
-answers the inverse question — *"given a thrust target, a noise ceiling,
-and a structural margin floor, what blade should I build?"* — in under
-a second, interactively.
+Urban eVTOL aircraft must operate under strict noise regulations while maximizing battery efficiency. Propeller design traditionally requires days of Finite Element Analysis for a single configuration. This suite answers the inverse question — *"given a thrust target, a noise ceiling, and a structural margin floor, what blade should I build?"* — in under a second, interactively.
 
 ## What it does
 
@@ -79,6 +75,9 @@ Three layers, three languages, one pipeline:
 | Outputs with R² > 0.99 | 11 of 12 |
 
 ## Validation
+
+![Parity](figures/parity.png)
+<center>Figure 2: PINN surrogate vs. C-Physics Engine</center><br>
 
 - **BEM solver**: FM = 0.61 for a 1 m, 2-blade, 2865 RPM test rotor — in the physically expected range for a rotor at this solidity.
 - **Noise model**: calibrated to within 1 dB of published NASA SHAC measurements of the Pettingill ideally-twisted rotor (AIAA 2020).
