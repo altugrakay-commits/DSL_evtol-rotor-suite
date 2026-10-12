@@ -1,0 +1,22 @@
+# Build artifacts
+rotor.dll
+rotor.lib
+rotor.exp
+*.obj
+*.exe
+*.so
+build/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
