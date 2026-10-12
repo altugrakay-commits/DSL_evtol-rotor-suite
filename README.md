@@ -7,9 +7,14 @@ Built for the [HTCJ Aviation Futures Challenge 2026](https://htcj-aviation-futur
 [Technical brief](docs/TECHNICAL_BRIEF.md) \
 [GitHub](https://github.com/altugrakay-commits)
 
-![Screenshot of the live app](figures/Headshot.png)
-<center>Figure 1: Screenshot of the live app</center>
-<br>
+<p align="center">
+  <img src="figures/Headshot.png" alt="Screenshot of the live app" width="600">
+  <br>
+  <ins><em>Figure 1: Screenshot of the live app</em></ins>
+</p>
+
+This text will now sit below the image with clean, standard spacing.
+
 
 ## The problem
 
@@ -77,9 +82,10 @@ Three layers, three languages, one pipeline:
 
 ## Validation
 
-![Parity](figures/parity.png)
-<center>Figure 2: PINN surrogate vs. C-Physics Engine</center>
-<br>
+<div align="center">
+  <img src="figures/parity.png" alt="PINN surrogate vs. C-Physics Engine" width="600">
+  <p><b>Figure 2:</b> <i>PINN surrogate vs. C-Physics Engine</i></p>
+</div>
 
 - **BEM solver**: FM = 0.61 for a 1 m, 2-blade, 2865 RPM test rotor — in the physically expected range for a rotor at this solidity.
 - **Noise model**: calibrated to within 1 dB of published NASA SHAC measurements of the Pettingill ideally-twisted rotor (AIAA 2020).
