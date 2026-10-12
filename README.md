@@ -37,13 +37,13 @@ Three layers, three languages, one pipeline:
 
 ```
    ┌──────────────────────────────────────────────────────┐
-   │  C physics core                                       │
-   │  bem.c · noise.c · structure.c · rotor_api.c          │
-   │  ────────────────────────────────────────────────     │
-   │  • Blade Element Momentum hover solver                │
-   │  • Semi-empirical tonal + broadband noise model,      │
-   │    calibrated to NASA SHAC measurements               │
-   │  • 1D beam tension/bending, flap frequency            │
+   │  C physics core                                      │
+   │  bem.c · noise.c · structure.c · rotor_api.c         │
+   │  ────────────────────────────────────────────────    │
+   │  • Blade Element Momentum hover solver               │
+   │  • Semi-empirical tonal + broadband noise model,     │
+   │    calibrated to NASA SHAC measurements              │
+   │  • 1D beam tension/bending, flap frequency           │
    └──────────────────────────┬───────────────────────────┘
                               │  flat C ABI
                               │  10 design floats in
