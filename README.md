@@ -3,9 +3,9 @@
 **Physics-informed surrogate for urban air mobility rotor design.** \
 Built for the [HTCJ Aviation Futures Challenge 2026](https://htcj-aviation-futures.devpost.com/).
 
-[Live demo](https://share.streamlit.io/user/altugrakay-commits) \
-[Technical brief](docs/TECHNICAL_BRIEF.md) \
-[GitHub](https://github.com/altugrakay-commits)
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://dslevtol-rotor-suite-cv6ptuc8vvwqxep3ydfz7m.streamlit.app/)
+
 
 <p align="center">
   <img src="figures/Headshot.png" alt="Screenshot of the live app" width="600">
